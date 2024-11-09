@@ -4674,7 +4674,7 @@ h6,
 }
 
 .main-header.header-one .logo-outer {
-  margin-top: -50px;
+  width: 140px;
   margin-right: 25px;
   padding: 25px 30px;
   background: var(--secondary-color);
@@ -11174,7 +11174,7 @@ blockquote .name:before {
   width: 20%;
 }
 
-#team-block {
+/* #team-block {
   padding-top: 145px;
 }
 #services-block {
@@ -11185,7 +11185,7 @@ blockquote .name:before {
 }
 #partnership-block {
   padding-top: 245px;
-}
+} */
 
 @media screen and (max-width: 574px) {
   .footer-shapes .shape.three {
