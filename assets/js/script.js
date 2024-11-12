@@ -9,9 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
-  console.log("====================================");
-  console.log("click");
-  console.log("====================================");
 });
 /*-----------------------------------------------------------------------------------
     Template Name: Jeena - IT solutions & Services HTML Template

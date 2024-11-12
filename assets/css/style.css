@@ -537,7 +537,6 @@ a.theme-btn.style-four:not(:hover):after {
   display: -ms-inline-flexbox;
   display: inline-flex;
   text-decoration: underline;
-  text-transform: capitalize;
 }
 .read-more i {
   float: right;
@@ -4657,7 +4656,17 @@ h6,
 .main-header.menu-white .toggle-btn {
   --c: conic-gradient(from -90deg, white 90deg, #0000 0);
 }
-
+.footer-links-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  width: fit-content;
+}
+.footer-links-list li {
+  display: flex;
+  justify-content: start;
+}
 /* Header One */
 .main-header.header-one .header-top {
   padding: 9px;
@@ -4674,9 +4683,9 @@ h6,
 }
 
 .main-header.header-one .logo-outer {
-  width: 140px;
+  width: fit-content;
   margin-right: 25px;
-  padding: 25px 30px;
+  padding: 10px 15px;
   background: var(--secondary-color);
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
   clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
@@ -11067,7 +11076,7 @@ blockquote .name:before {
 .footer-white .footer-title,
 .footer-white .footer-bottom-menu li a:hover {
   color: white;
-  text-align: end;
+  text-align: start;
 }
 
 .footer-white .widget_newsletter form {
@@ -11075,15 +11084,21 @@ blockquote .name:before {
 }
 
 .footer-widget {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
-.footer-widget ul li {
+.footer-widget ul {
   text-align: end;
 }
 
-.footer-title {
-  margin-bottom: 28px;
+.links-footer-wrapper {
+  display: block;
+}
+.footer-special-list {
+  display: block;
+}
+.footer-special-list ul {
+  display: flex;
 }
 @media screen and (max-width: 767px) {
   .footer-white .footer-title,
@@ -11186,6 +11201,20 @@ blockquote .name:before {
 #partnership-block {
   padding-top: 245px;
 } */
+
+@media screen and (min-width: 1200px) {
+  #contacts-block,
+  #partnership-block,
+  #assortment-block {
+    padding-top: 250px;
+  }
+  #services-block {
+    padding-top: 280px;
+  }
+  #team-block {
+    padding-top: 150px;
+  }
+}
 
 @media screen and (max-width: 574px) {
   .footer-shapes .shape.three {
