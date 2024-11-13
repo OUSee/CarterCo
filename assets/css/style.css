@@ -11218,8 +11218,23 @@ blockquote .name:before {
   flex-direction: row;
   margin: 0;
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
+  #about-block,
+  #contacts-block,
+  #assortment-block {
+    padding-top: 110px;
+  }
+  #services-block {
+    padding-top: 215px;
+  }
+  #team-block {
+    padding-top: 85px;
+  }
+  #partnership-block {
+    padding-top: 175px;
+  }
+}
+@media screen and (min-width: 1441px) {
   #contacts-block,
   #partnership-block,
   #assortment-block {
