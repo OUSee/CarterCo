@@ -6130,6 +6130,9 @@ h6,
   -webkit-box-shadow: 10px 0 60px rgba(103, 77, 243, 0.1);
   box-shadow: 10px 0 60px rgba(103, 77, 243, 0.1);
 }
+.service-item h4 span {
+  font-size: 25px;
+}
 .service-item.style-two .icon {
   line-height: 1;
   font-size: 60px;
